@@ -122,4 +122,4 @@ The project includes automated workflows:
 -   **CD (`deploy.yml`)**: Runs on every push to `main`. It builds production Docker images and pushes them to **GitHub Container Registry (GHCR)**.
 
 ### 3. Deploying the Images
-Once images are pushed to GHCR, you can deploy them to any VPS or cloud provider using the `docker-compose.prod.yml` file, replacing the `build:` sections with `image: ghcr.io/<your-username>/<repo-name>-<service>:latest`.
+Once images are pushed to GHCR, i will deploy them to any VPS or cloud provider using the `docker-compose.prod.yml` file, replacing the `build:` sections with `image: ghcr.io/<my-username>/<repo-name>-<service>:latest`.
